@@ -267,3 +267,38 @@ body {
         height: 260px;
     }
 }
+
+
+.financial-section {
+    background-image: linear-gradient(rgba(15, 20, 45, 0.85), rgba(15, 20, 45, 0.85)), url(images/calculator-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0;
+}
+
+.financial-section .form-label {
+    color: #e0e0e0;
+    font-size: 14px;
+}
+
+.financial-section .form-control,
+.financial-section .form-select {
+    background-color: #6b7280;
+    border: none;
+    color: #fff;
+    padding: 12px 14px;
+}
+
+.financial-section .form-control::placeholder {
+    color: #ddd;
+}
+
+.financial-section .form-control:focus,
+.financial-section .form-select:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.person-img {
+    max-height: 520px;
+}
